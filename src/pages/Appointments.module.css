@@ -1,0 +1,16 @@
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 23px; align-items: start; }
+.formCard { padding: 23px; }
+.formTitle { display: flex; align-items: center; gap: 11px; border-bottom: 1px solid #edf1ef; margin-bottom: 23px; padding-bottom: 23px; }
+.formTitle > span { display: grid; width: 35px; height: 35px; place-items: center; border-radius: 9px; background: #edf7f2; color: #5e9d84; }
+.formTitle h2 { font-size: 14px; }
+.formTitle p { font-size: 10px; color: #95a2a2; margin-top: 7px; }
+.dateRow { display: grid; grid-template-columns: 1.2fr 1fr; gap: 13px; }
+.formHint { color: #a0afaa; font-size: 9px; line-height: 1.8; margin: 0 0 20px; }
+.submit { width: 100%; }
+.filters { display: flex; align-items: center; gap: 11px; padding: 0 24px 19px; color: #8fa5a2; }
+.filters > div { display: flex; border: 1px solid #e4ebe9; border-radius: 7px; padding: 3px; background: #fafcfb; }
+.filters button { padding: 7px 11px; background: none; border: 0; border-radius: 5px; color: #93a29f; font-size: 10px; }
+.filters button:hover { color: #467b6c; }
+.filters .selected { color: #387c69; background: white; box-shadow: 0 1px 4px #18392a12; }
+@media (max-width: 1150px) { .grid { grid-template-columns: minmax(0, 1fr); } .formCard { max-width: 650px; width: 100%; } }
+@media (max-width: 550px) { .grid { gap: 19px; } .formCard { padding: 20px; } .filters { padding-left: 17px; padding-right: 17px; } }

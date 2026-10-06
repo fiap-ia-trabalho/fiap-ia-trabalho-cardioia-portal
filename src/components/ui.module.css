@@ -1,0 +1,87 @@
+.brand { display: flex; align-items: center; gap: 10px; font-family: 'Manrope', sans-serif; font-size: 25px; font-weight: 800; letter-spacing: -.9px; color: #123e41; }
+.brandIcon { width: 41px; height: 43px; display: grid; place-items: center; background: #e3f3ef; color: #18877b; border-radius: 12px; }
+.brandAccent { color: #18877b; }
+.brand small { display: block; margin-top: 3px; font: 600 8px 'DM Sans', sans-serif; letter-spacing: 1.8px; color: #829491; }
+.brandLight { color: white; }
+.brandLight .brandIcon { background: #ffffff13; color: #a8dfcb; border: 1px solid #ffffff20; }
+.brandLight .brandAccent { color: #a8dfcb; }
+.brandLight small { color: #abc6c4; }
+.pageHeading { display: flex; gap: 18px; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+.eyebrow { font-size: 10px; font-weight: 650; letter-spacing: 1.7px; color: #748b8b; margin-bottom: 10px; }
+.pageHeading h1 { font-size: 29px; font-weight: 750; letter-spacing: -1.2px; line-height: 1.3; margin-bottom: 8px; }
+.pageHeading > div > p:last-child { color: #7b888b; font-size: 13px; line-height: 1.6; }
+.primaryButton { display: inline-flex; gap: 9px; align-items: center; justify-content: center; background: #177e75; color: white; border: 1px solid transparent; border-radius: 8px; padding: 12px 17px; font-weight: 550; font-size: 12px; line-height: 1.4; box-shadow: 0 3px 6px #10413c08; transition: background .15s; white-space: nowrap; }
+.primaryButton:hover { background: #11665f; }
+.card { background: white; border: 1px solid var(--border); border-radius: 13px; min-width: 0; overflow: hidden; box-shadow: 0 3px 14px #16333703; }
+.cardHeading { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 23px 24px; }
+.cardHeading h2, .card h2 { font-size: 15px; font-weight: 750; letter-spacing: -.3px; }
+.cardHeading p, .card > p { color: #819092; font-size: 11px; margin-top: 7px; line-height: 1.6; }
+.textLink { display: inline-flex; align-items: center; gap: 5px; color: #177a71; font-size: 11px; font-weight: 600; white-space: nowrap; }
+.textLink:hover { color: #0c534c; text-decoration: underline; }
+.tableScroll { width: 100%; overflow-x: auto; }
+.table { border-collapse: collapse; width: 100%; text-align: left; white-space: nowrap; font-size: 12px; }
+.table th { padding: 12px 24px; color: #879295; font-size: 10px; font-weight: 500; background: #fbfcfc; border-top: 1px solid #eef2f3; border-bottom: 1px solid #eef2f3; }
+.table td { padding: 20px 24px; border-bottom: 1px solid #eff3f4; }
+.table tr:last-child td { border-bottom: none; }
+.table tbody tr:hover { background: #fcfefd; }
+.person { display: flex; gap: 11px; align-items: center; }
+.personAvatar { display: inline-grid; flex-shrink: 0; width: 36px; height: 36px; place-items: center; border-radius: 11px; background: #edf4f1; color: #497a70; font-size: 10px; font-weight: 600; }
+.person strong { display: block; font-weight: 550; color: #344647; font-size: 12px; }
+.person small, .contact small { display: block; margin-top: 5px; color: #919b9e; font-size: 10px; }
+.date { font-size: 11px; display: block; font-weight: 500; color: #526164; }
+.time { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #929d9f; margin-top: 6px; }
+.doctor { color: #6b7b7f; font-size: 11px; }
+.badge { display: inline-flex; align-items: center; padding: 5px 9px; border-radius: 6px; background: #ecf7f1; color: #488c73; font-size: 9px; font-weight: 550; }
+.badgeMuted { color: #848d90; background: #f1f3f5; }
+.badgeBlue { color: #5079a0; background: #edf3f9; }
+.iconButton { display: inline-grid; width: 27px; height: 27px; place-items: center; color: #939d9f; border: 1px solid #e7eeef; border-radius: 6px; background: white; }
+.iconButton:hover { color: #b54e4e; border-color: #dbb9b9; }
+.cancelLabel { display: none; }
+.countPill { display: inline-flex; gap: 8px; align-items: center; color: #688282; background: #eaf0ef; padding: 10px 13px; border-radius: 7px; font-size: 11px; white-space: nowrap; }
+.listToolbar { padding: 23px 24px; display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+.listToolbar > span { font-size: 11px; color: #899699; white-space: nowrap; }
+.search { display: flex; align-items: center; gap: 9px; border: 1px solid #e3e9eb; padding: 0 13px; border-radius: 7px; width: min(100%, 365px); color: #98a5a7; }
+.search input { width: 100%; padding: 11px 0; border: 0; font-size: 11px; color: #405657; background: transparent; }
+.search:focus-within { border-color: #5da79e; }
+.search input:focus { box-shadow: none; }
+.contact > span { font-size: 11px; color: #66797a; }
+.field { display: flex; flex-direction: column; gap: 8px; margin-bottom: 19px; }
+.field label { font-size: 11px; font-weight: 600; color: #566a6b; }
+.field input, .field select { width: 100%; min-width: 0; padding: 12px 12px; background: #fff; border: 1px solid #dfe7e8; border-radius: 7px; font-size: 12px; color: #43595a; line-height: 1.5; }
+.field input::placeholder { color: #9ba7a9; }
+.field select { text-overflow: ellipsis; }
+.fieldError { color: #b15555; font-size: 10px; line-height: 1.5; }
+.formError { margin: 0 0 18px; padding: 11px; border-radius: 7px; color: #ae4949; background: #fff0ef; font-size: 12px; line-height: 1.6; }
+.success { display: flex; gap: 9px; align-items: center; font-size: 12px; color: #277864; background: #e8f5ed; border: 1px solid #d5ecdf; border-radius: 8px; padding: 13px 16px; margin: 0 0 20px; line-height: 1.6; }
+.success svg { flex-shrink: 0; }
+.empty { text-align: center; padding: 50px 20px; color: #97aaa9; }
+.empty h3 { color: #597272; font-size: 15px; margin-top: 12px; }
+.empty p { font-size: 12px; color: #8a999b; margin-top: 8px; line-height: 1.5; }
+.pageNote { font-size: 10px; color: #98a3a5; margin-top: 19px; line-height: 1.5; }
+.loading { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 280px; color: #6d8784; font-size: 13px; }
+.spinner { width: 22px; height: 22px; border: 2px solid #dbe9e5; border-top-color: #177e75; border-radius: 50%; animation: spin 1s linear infinite; }
+.errorBox { padding: 35px; border: 1px solid #e8dddd; border-radius: 12px; background: white; }
+.errorBox h1 { font-size: 24px; }
+.errorBox p { margin: 15px 0 25px; }
+.srOnly { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (max-width: 700px) { .pageHeading { align-items: flex-start; margin-bottom: 22px; flex-wrap: wrap; } .pageHeading h1 { font-size: 26px; } .pageHeading > .primaryButton { padding: 10px 12px; } .cardHeading, .listToolbar { padding: 19px 17px; } .listToolbar { flex-wrap: wrap; gap: 10px; } .search { width: 100%; } .table th { padding: 12px 17px; } .table td { padding: 17px; } }
+@media (max-width: 550px) {
+  .patientTable, .appointmentTable, .patientTable tbody, .appointmentTable tbody { display: block; width: 100%; }
+  .patientTable thead, .appointmentTable thead { display: none; }
+  .patientTable tbody tr, .appointmentTable tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px 10px; padding: 19px 17px; border-top: 1px solid #edf2f0; }
+  .patientTable td, .appointmentTable td { display: block; padding: 0 !important; border: none; white-space: normal; align-self: center; }
+  .patientTable td:nth-child(3) { grid-column: 1 / -1; }
+  .patientTable td:nth-child(2) { color: #7d9190; font-size: 11px; text-align: right; }
+  .patientTable td:nth-child(5) { justify-self: end; }
+  .patientTable .textLink { padding: 8px 10px; border: 1px solid #dbeae3; border-radius: 6px; font-size: 12px; }
+  .appointmentTable td:nth-child(1) { grid-row: 1; grid-column: 1; }
+  .appointmentTable td:nth-child(4) { grid-row: 1; grid-column: 2; text-align: right; }
+  .appointmentTable td:nth-child(2) { grid-row: 2; grid-column: 1; }
+  .appointmentTable td:nth-child(3) { grid-row: 2; grid-column: 2; font-size: 11px; text-align: right; }
+  .appointmentTable td:nth-child(5) { grid-column: 1 / -1; justify-self: end; }
+  .appointmentTable .iconButton { width: auto; height: 33px; display: flex; gap: 5px; padding: 0 9px; font-size: 10px; }
+  .cancelLabel { display: inline; }
+  .person strong { font-size: 13px; }
+  .badge { font-size: 10px; }
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "P001", "nome": "Ana Lima", "idade": 52, "email": "ana.lima@example.com", "telefone": "(11) 90000-0001", "perfil": "Acompanhamento" },
+  { "id": "P002", "nome": "João Ribeiro", "idade": 64, "email": "joao.ribeiro@example.com", "telefone": "(11) 90000-0002", "perfil": "Retorno" },
+  { "id": "P003", "nome": "Mariana Alves", "idade": 37, "email": "mariana.alves@example.com", "telefone": "(11) 90000-0003", "perfil": "Primeira consulta" },
+  { "id": "P004", "nome": "Carlos Souza", "idade": 59, "email": "carlos.souza@example.com", "telefone": "(11) 90000-0004", "perfil": "Acompanhamento" },
+  { "id": "P005", "nome": "Luiza Fernandes", "idade": 45, "email": "luiza.fernandes@example.com", "telefone": "(11) 90000-0005", "perfil": "Retorno" },
+  { "id": "P006", "nome": "Pedro Santos", "idade": 71, "email": "pedro.santos@example.com", "telefone": "(11) 90000-0006", "perfil": "Acompanhamento" },
+  { "id": "P007", "nome": "Beatriz Costa", "idade": 29, "email": "beatriz.costa@example.com", "telefone": "(11) 90000-0007", "perfil": "Primeira consulta" },
+  { "id": "P008", "nome": "Rafael Oliveira", "idade": 48, "email": "rafael.oliveira@example.com", "telefone": "(11) 90000-0008", "perfil": "Retorno" }
+]
