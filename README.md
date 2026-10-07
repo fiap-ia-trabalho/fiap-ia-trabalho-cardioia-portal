@@ -129,14 +129,15 @@ implementa extração de sintomas e classificação de risco por texto. Este por
 modelos de diagnóstico. O repositório próprio segue o nome
 `nome-do-grupo-cardioia-portal` solicitado no enunciado para o Ir Além 1.
 
-O **Ir Além 2**, de imagens de ECG e MLP, está no
-[notebook 03 do repositório principal](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-estetoscopio-digital/blob/main/notebooks/03_diagnostico_visual.ipynb),
-com imagens, resultados e instruções no mesmo projeto Python.
+O **Ir Além 2**, de imagens de ECG e MLP, está no repositório próprio
+[CardioIA — diagnóstico visual](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-diagnostico-visual), com notebook, exemplos de imagens,
+resultados, dependências e instruções de execução. Cada uma das três entregas
+tem seu próprio repositório público e vídeo.
 
-| Entrega relacionada | Vídeo não listado |
-|---|---|
-| Atividade básica — extração e classificação de texto | [Assistir — 3min59s](https://youtu.be/bK4_8Aduo00) |
-| Ir Além 2 — imagens de ECG e MLP | [Assistir — 3min24s](https://youtu.be/xxkzZaIitig) |
+| Entrega relacionada | Repositório público | Vídeo não listado |
+|---|---|---|
+| Atividade básica — extração e classificação de texto | [Estetoscópio digital](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-estetoscopio-digital) | [3min59s](https://youtu.be/bK4_8Aduo00) |
+| Ir Além 2 — imagens de ECG e MLP | [Diagnóstico visual](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-diagnostico-visual) | [3min24s](https://youtu.be/xxkzZaIitig) |
 
 ## Referências técnicas
 
