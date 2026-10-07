@@ -9,9 +9,10 @@ serviço clínico ou back-end.
 
 ## Vídeo de demonstração
 
-**Vídeo ainda não publicado.** Incluir aqui o link do YouTube como **não listado**,
-com duração de até quatro minutos. O [roteiro](docs/roteiro_video.md) descreve
-as telas, ações e fala sugeridas.
+**[Assistir à demonstração do Ir Além 1 — 3min37s](https://youtu.be/tbczinvMLLk)**,
+publicada no YouTube como **não listada**. O vídeo apresenta login, pacientes,
+agendamentos, dashboard e os recursos React usados no portal.
+O [roteiro](docs/roteiro_video.md) é material de apoio à gravação.
 
 ## Integrantes
 
@@ -83,7 +84,7 @@ compartilhada entre computadores. As datas de referência usam `America/Bahia`.
 | CSS Modules | Arquivos `.module.css` dos componentes e páginas |
 | Organização por contexts, components, services e pages | As quatro pastas ficam em `src/` |
 | Nomes completos e RMs | Tabela de integrantes neste README |
-| Vídeo não listado com link no README | Pendente de gravação e publicação |
+| Vídeo não listado com link no README | [Publicado — 3min37s](https://youtu.be/tbczinvMLLk) |
 
 O estado da agenda também usa `useReducer` em `PortalContext`. `useEffect` carrega
 os pacientes, persiste os registros e controla a expiração da sessão; `useContext`
@@ -125,7 +126,17 @@ O build gera a pasta `dist/`. O comando `preview` serve essa versão localmente.
 A [entrega principal da Fase 2](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-estetoscopio-digital)
 implementa extração de sintomas e classificação de risco por texto. Este portal
 é o desafio Ir Além 1 e simula somente a interface; não executa nem integra os
-modelos de diagnóstico. O Ir Além 2, de MLP para ECG, não faz parte deste projeto.
+modelos de diagnóstico. O repositório próprio segue o nome
+`nome-do-grupo-cardioia-portal` solicitado no enunciado para o Ir Além 1.
+
+O **Ir Além 2**, de imagens de ECG e MLP, está no
+[notebook 03 do repositório principal](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase2-estetoscopio-digital/blob/main/notebooks/03_diagnostico_visual.ipynb),
+com imagens, resultados e instruções no mesmo projeto Python.
+
+| Entrega relacionada | Vídeo não listado |
+|---|---|
+| Atividade básica — extração e classificação de texto | [Assistir — 3min59s](https://youtu.be/bK4_8Aduo00) |
+| Ir Além 2 — imagens de ECG e MLP | [Assistir — 3min24s](https://youtu.be/xxkzZaIitig) |
 
 ## Referências técnicas
 
